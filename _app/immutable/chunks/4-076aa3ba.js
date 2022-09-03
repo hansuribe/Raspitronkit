@@ -1,1 +1,0 @@
-import{default as i}from"../components/pages/todos/_page.svelte-14ec903d.js";import"./index-1787e703.js";import"./singletons-54320f96.js";import"./index-64a29325.js";const e=!0;export{i as component,e as server};
