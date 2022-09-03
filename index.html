@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/_app/immutable/start-3ee0a195.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-5b0149c9.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/singletons-487eb1aa.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-b73ee6b7.js">
+	</head>
+	<body>
+		<div>
+		<script type="module" data-sveltekit-hydrate="45h">
+		import { start } from "/_app/immutable/start-3ee0a195.js";
 
-	<title>Svelte app</title>
-
-	<link rel='icon' type='image/png' href='./favicon.png'>
-	<link rel='stylesheet' href='./global.css'>
-	<link rel='stylesheet' href='./build/bundle.css'>
-
-	<script defer src='./build/bundle.js'></script>
-</head>
-
-<body>
-</body>
+		start({
+			env: {},
+			hydrate: null,
+			paths: {"base":"","assets":""},
+			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+			trailing_slash: "never"
+		});
+	</script></div>
+	</body>
 </html>
