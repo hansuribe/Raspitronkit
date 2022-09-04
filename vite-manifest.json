@@ -1,6 +1,6 @@
 {
   "src/lib/header/svelte-logo.svg": {
-    "file": "_app/immutable/assets/svelte-logo-87df40b8.svg",
+    "file": "app_/immutable/assets/svelte-logo-87df40b8.svg",
     "src": "src/lib/header/svelte-logo.svg"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
